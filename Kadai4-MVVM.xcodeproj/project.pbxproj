@@ -1,0 +1,807 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D5ADC1FD6E57003A3A25D0C /* Pods_Kadai4_MVVMTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A16450B4053818A5F2E0B78F /* Pods_Kadai4_MVVMTests.framework */; };
+		959FCB3E28EF8A7000B15130 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959FCB3D28EF8A7000B15130 /* AppDelegate.swift */; };
+		959FCB4028EF8A7000B15130 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959FCB3F28EF8A7000B15130 /* SceneDelegate.swift */; };
+		959FCB4228EF8A7000B15130 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959FCB4128EF8A7000B15130 /* ViewController.swift */; };
+		959FCB4528EF8A7000B15130 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 959FCB4328EF8A7000B15130 /* Main.storyboard */; };
+		959FCB4728EF8A7200B15130 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 959FCB4628EF8A7200B15130 /* Assets.xcassets */; };
+		959FCB4A28EF8A7200B15130 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 959FCB4828EF8A7200B15130 /* LaunchScreen.storyboard */; };
+		959FCB5528EF8A7200B15130 /* Kadai4_MVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959FCB5428EF8A7200B15130 /* Kadai4_MVVMTests.swift */; };
+		959FCB5F28EF8A7200B15130 /* Kadai4_MVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959FCB5E28EF8A7200B15130 /* Kadai4_MVVMUITests.swift */; };
+		959FCB6128EF8A7200B15130 /* Kadai4_MVVMUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959FCB6028EF8A7200B15130 /* Kadai4_MVVMUITestsLaunchTests.swift */; };
+		959FCB7128EF8CBC00B15130 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959FCB7028EF8CBB00B15130 /* ViewModel.swift */; };
+		BE93048E92E0253D2069CC89 /* Pods_Kadai4_MVVM_Kadai4_MVVMUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF188DCE8CC0F22550473C4B /* Pods_Kadai4_MVVM_Kadai4_MVVMUITests.framework */; };
+		D4C6AB3835D02DE09183821E /* Pods_Kadai4_MVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 543AD079E781A7B5D660AC19 /* Pods_Kadai4_MVVM.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		959FCB5128EF8A7200B15130 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 959FCB3228EF8A7000B15130 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 959FCB3928EF8A7000B15130;
+			remoteInfo = "Kadai4-MVVM";
+		};
+		959FCB5B28EF8A7200B15130 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 959FCB3228EF8A7000B15130 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 959FCB3928EF8A7000B15130;
+			remoteInfo = "Kadai4-MVVM";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E42F29CFC684F1E00277553 /* Pods-Kadai4-MVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kadai4-MVVM.debug.xcconfig"; path = "Target Support Files/Pods-Kadai4-MVVM/Pods-Kadai4-MVVM.debug.xcconfig"; sourceTree = "<group>"; };
+		543AD079E781A7B5D660AC19 /* Pods_Kadai4_MVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kadai4_MVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5743D102E6D2468FCBC6D537 /* Pods-Kadai4-MVVM-Kadai4-MVVMUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kadai4-MVVM-Kadai4-MVVMUITests.debug.xcconfig"; path = "Target Support Files/Pods-Kadai4-MVVM-Kadai4-MVVMUITests/Pods-Kadai4-MVVM-Kadai4-MVVMUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		71CBF92F82F9564809A4BBF9 /* Pods-Kadai4-MVVM-Kadai4-MVVMUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kadai4-MVVM-Kadai4-MVVMUITests.release.xcconfig"; path = "Target Support Files/Pods-Kadai4-MVVM-Kadai4-MVVMUITests/Pods-Kadai4-MVVM-Kadai4-MVVMUITests.release.xcconfig"; sourceTree = "<group>"; };
+		959FCB3A28EF8A7000B15130 /* Kadai4-MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kadai4-MVVM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		959FCB3D28EF8A7000B15130 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		959FCB3F28EF8A7000B15130 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		959FCB4128EF8A7000B15130 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		959FCB4428EF8A7000B15130 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		959FCB4628EF8A7200B15130 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		959FCB4928EF8A7200B15130 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		959FCB4B28EF8A7200B15130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		959FCB5028EF8A7200B15130 /* Kadai4-MVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kadai4-MVVMTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		959FCB5428EF8A7200B15130 /* Kadai4_MVVMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kadai4_MVVMTests.swift; sourceTree = "<group>"; };
+		959FCB5A28EF8A7200B15130 /* Kadai4-MVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kadai4-MVVMUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		959FCB5E28EF8A7200B15130 /* Kadai4_MVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kadai4_MVVMUITests.swift; sourceTree = "<group>"; };
+		959FCB6028EF8A7200B15130 /* Kadai4_MVVMUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kadai4_MVVMUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		959FCB7028EF8CBB00B15130 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		A16450B4053818A5F2E0B78F /* Pods_Kadai4_MVVMTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kadai4_MVVMTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A607F2285F6CEB6C8CEF504F /* Pods-Kadai4-MVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kadai4-MVVM.release.xcconfig"; path = "Target Support Files/Pods-Kadai4-MVVM/Pods-Kadai4-MVVM.release.xcconfig"; sourceTree = "<group>"; };
+		CEF0D935C0315DD9BA97300D /* Pods-Kadai4-MVVMTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kadai4-MVVMTests.release.xcconfig"; path = "Target Support Files/Pods-Kadai4-MVVMTests/Pods-Kadai4-MVVMTests.release.xcconfig"; sourceTree = "<group>"; };
+		DF188DCE8CC0F22550473C4B /* Pods_Kadai4_MVVM_Kadai4_MVVMUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kadai4_MVVM_Kadai4_MVVMUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9CB541FBBC529A86DE0C146 /* Pods-Kadai4-MVVMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kadai4-MVVMTests.debug.xcconfig"; path = "Target Support Files/Pods-Kadai4-MVVMTests/Pods-Kadai4-MVVMTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		959FCB3728EF8A7000B15130 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4C6AB3835D02DE09183821E /* Pods_Kadai4_MVVM.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		959FCB4D28EF8A7200B15130 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D5ADC1FD6E57003A3A25D0C /* Pods_Kadai4_MVVMTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		959FCB5728EF8A7200B15130 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE93048E92E0253D2069CC89 /* Pods_Kadai4_MVVM_Kadai4_MVVMUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C36125367D3BD1B5989BA9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				543AD079E781A7B5D660AC19 /* Pods_Kadai4_MVVM.framework */,
+				DF188DCE8CC0F22550473C4B /* Pods_Kadai4_MVVM_Kadai4_MVVMUITests.framework */,
+				A16450B4053818A5F2E0B78F /* Pods_Kadai4_MVVMTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		959FCB3128EF8A7000B15130 = {
+			isa = PBXGroup;
+			children = (
+				959FCB3C28EF8A7000B15130 /* Kadai4-MVVM */,
+				959FCB5328EF8A7200B15130 /* Kadai4-MVVMTests */,
+				959FCB5D28EF8A7200B15130 /* Kadai4-MVVMUITests */,
+				959FCB3B28EF8A7000B15130 /* Products */,
+				C49D8BDC0761C84E1C8FDB61 /* Pods */,
+				0C36125367D3BD1B5989BA9D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		959FCB3B28EF8A7000B15130 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				959FCB3A28EF8A7000B15130 /* Kadai4-MVVM.app */,
+				959FCB5028EF8A7200B15130 /* Kadai4-MVVMTests.xctest */,
+				959FCB5A28EF8A7200B15130 /* Kadai4-MVVMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		959FCB3C28EF8A7000B15130 /* Kadai4-MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				959FCB6F28EF8C9F00B15130 /* Model */,
+				959FCB6E28EF8C9A00B15130 /* Views */,
+				959FCB6D28EF8C9400B15130 /* ViewModels */,
+				959FCB3D28EF8A7000B15130 /* AppDelegate.swift */,
+				959FCB3F28EF8A7000B15130 /* SceneDelegate.swift */,
+				959FCB4628EF8A7200B15130 /* Assets.xcassets */,
+				959FCB4828EF8A7200B15130 /* LaunchScreen.storyboard */,
+				959FCB4B28EF8A7200B15130 /* Info.plist */,
+			);
+			path = "Kadai4-MVVM";
+			sourceTree = "<group>";
+		};
+		959FCB5328EF8A7200B15130 /* Kadai4-MVVMTests */ = {
+			isa = PBXGroup;
+			children = (
+				959FCB5428EF8A7200B15130 /* Kadai4_MVVMTests.swift */,
+			);
+			path = "Kadai4-MVVMTests";
+			sourceTree = "<group>";
+		};
+		959FCB5D28EF8A7200B15130 /* Kadai4-MVVMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				959FCB5E28EF8A7200B15130 /* Kadai4_MVVMUITests.swift */,
+				959FCB6028EF8A7200B15130 /* Kadai4_MVVMUITestsLaunchTests.swift */,
+			);
+			path = "Kadai4-MVVMUITests";
+			sourceTree = "<group>";
+		};
+		959FCB6D28EF8C9400B15130 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				959FCB7028EF8CBB00B15130 /* ViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		959FCB6E28EF8C9A00B15130 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				959FCB4328EF8A7000B15130 /* Main.storyboard */,
+				959FCB4128EF8A7000B15130 /* ViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		959FCB6F28EF8C9F00B15130 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C49D8BDC0761C84E1C8FDB61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E42F29CFC684F1E00277553 /* Pods-Kadai4-MVVM.debug.xcconfig */,
+				A607F2285F6CEB6C8CEF504F /* Pods-Kadai4-MVVM.release.xcconfig */,
+				5743D102E6D2468FCBC6D537 /* Pods-Kadai4-MVVM-Kadai4-MVVMUITests.debug.xcconfig */,
+				71CBF92F82F9564809A4BBF9 /* Pods-Kadai4-MVVM-Kadai4-MVVMUITests.release.xcconfig */,
+				E9CB541FBBC529A86DE0C146 /* Pods-Kadai4-MVVMTests.debug.xcconfig */,
+				CEF0D935C0315DD9BA97300D /* Pods-Kadai4-MVVMTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		959FCB3928EF8A7000B15130 /* Kadai4-MVVM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 959FCB6428EF8A7200B15130 /* Build configuration list for PBXNativeTarget "Kadai4-MVVM" */;
+			buildPhases = (
+				2745A11D32B241F56A388CD4 /* [CP] Check Pods Manifest.lock */,
+				959FCB3628EF8A7000B15130 /* Sources */,
+				959FCB3728EF8A7000B15130 /* Frameworks */,
+				959FCB3828EF8A7000B15130 /* Resources */,
+				C00ECF1DC47B1343FAE0B645 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kadai4-MVVM";
+			productName = "Kadai4-MVVM";
+			productReference = 959FCB3A28EF8A7000B15130 /* Kadai4-MVVM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		959FCB4F28EF8A7200B15130 /* Kadai4-MVVMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 959FCB6728EF8A7200B15130 /* Build configuration list for PBXNativeTarget "Kadai4-MVVMTests" */;
+			buildPhases = (
+				2D70ADB4473D6F46EBE09F8D /* [CP] Check Pods Manifest.lock */,
+				959FCB4C28EF8A7200B15130 /* Sources */,
+				959FCB4D28EF8A7200B15130 /* Frameworks */,
+				959FCB4E28EF8A7200B15130 /* Resources */,
+				8ED7182403FAAC5D1E758E19 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				959FCB5228EF8A7200B15130 /* PBXTargetDependency */,
+			);
+			name = "Kadai4-MVVMTests";
+			productName = "Kadai4-MVVMTests";
+			productReference = 959FCB5028EF8A7200B15130 /* Kadai4-MVVMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		959FCB5928EF8A7200B15130 /* Kadai4-MVVMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 959FCB6A28EF8A7200B15130 /* Build configuration list for PBXNativeTarget "Kadai4-MVVMUITests" */;
+			buildPhases = (
+				63B6C185238BB5BEAC60C667 /* [CP] Check Pods Manifest.lock */,
+				959FCB5628EF8A7200B15130 /* Sources */,
+				959FCB5728EF8A7200B15130 /* Frameworks */,
+				959FCB5828EF8A7200B15130 /* Resources */,
+				042C5A56CD69CC70AB6EDFAA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				959FCB5C28EF8A7200B15130 /* PBXTargetDependency */,
+			);
+			name = "Kadai4-MVVMUITests";
+			productName = "Kadai4-MVVMUITests";
+			productReference = 959FCB5A28EF8A7200B15130 /* Kadai4-MVVMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		959FCB3228EF8A7000B15130 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					959FCB3928EF8A7000B15130 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					959FCB4F28EF8A7200B15130 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 959FCB3928EF8A7000B15130;
+					};
+					959FCB5928EF8A7200B15130 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 959FCB3928EF8A7000B15130;
+					};
+				};
+			};
+			buildConfigurationList = 959FCB3528EF8A7000B15130 /* Build configuration list for PBXProject "Kadai4-MVVM" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 959FCB3128EF8A7000B15130;
+			productRefGroup = 959FCB3B28EF8A7000B15130 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				959FCB3928EF8A7000B15130 /* Kadai4-MVVM */,
+				959FCB4F28EF8A7200B15130 /* Kadai4-MVVMTests */,
+				959FCB5928EF8A7200B15130 /* Kadai4-MVVMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		959FCB3828EF8A7000B15130 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				959FCB4A28EF8A7200B15130 /* LaunchScreen.storyboard in Resources */,
+				959FCB4728EF8A7200B15130 /* Assets.xcassets in Resources */,
+				959FCB4528EF8A7000B15130 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		959FCB4E28EF8A7200B15130 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		959FCB5828EF8A7200B15130 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		042C5A56CD69CC70AB6EDFAA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kadai4-MVVM-Kadai4-MVVMUITests/Pods-Kadai4-MVVM-Kadai4-MVVMUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kadai4-MVVM-Kadai4-MVVMUITests/Pods-Kadai4-MVVM-Kadai4-MVVMUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Kadai4-MVVM-Kadai4-MVVMUITests/Pods-Kadai4-MVVM-Kadai4-MVVMUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2745A11D32B241F56A388CD4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kadai4-MVVM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D70ADB4473D6F46EBE09F8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kadai4-MVVMTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63B6C185238BB5BEAC60C667 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kadai4-MVVM-Kadai4-MVVMUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8ED7182403FAAC5D1E758E19 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kadai4-MVVMTests/Pods-Kadai4-MVVMTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kadai4-MVVMTests/Pods-Kadai4-MVVMTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Kadai4-MVVMTests/Pods-Kadai4-MVVMTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C00ECF1DC47B1343FAE0B645 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kadai4-MVVM/Pods-Kadai4-MVVM-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kadai4-MVVM/Pods-Kadai4-MVVM-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Kadai4-MVVM/Pods-Kadai4-MVVM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		959FCB3628EF8A7000B15130 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				959FCB4228EF8A7000B15130 /* ViewController.swift in Sources */,
+				959FCB3E28EF8A7000B15130 /* AppDelegate.swift in Sources */,
+				959FCB7128EF8CBC00B15130 /* ViewModel.swift in Sources */,
+				959FCB4028EF8A7000B15130 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		959FCB4C28EF8A7200B15130 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				959FCB5528EF8A7200B15130 /* Kadai4_MVVMTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		959FCB5628EF8A7200B15130 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				959FCB6128EF8A7200B15130 /* Kadai4_MVVMUITestsLaunchTests.swift in Sources */,
+				959FCB5F28EF8A7200B15130 /* Kadai4_MVVMUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		959FCB5228EF8A7200B15130 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 959FCB3928EF8A7000B15130 /* Kadai4-MVVM */;
+			targetProxy = 959FCB5128EF8A7200B15130 /* PBXContainerItemProxy */;
+		};
+		959FCB5C28EF8A7200B15130 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 959FCB3928EF8A7000B15130 /* Kadai4-MVVM */;
+			targetProxy = 959FCB5B28EF8A7200B15130 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		959FCB4328EF8A7000B15130 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				959FCB4428EF8A7000B15130 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		959FCB4828EF8A7200B15130 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				959FCB4928EF8A7200B15130 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		959FCB6228EF8A7200B15130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		959FCB6328EF8A7200B15130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		959FCB6528EF8A7200B15130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E42F29CFC684F1E00277553 /* Pods-Kadai4-MVVM.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7X9S244452;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Kadai4-MVVM/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mkondo.Kadai4-MVVM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		959FCB6628EF8A7200B15130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A607F2285F6CEB6C8CEF504F /* Pods-Kadai4-MVVM.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7X9S244452;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Kadai4-MVVM/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mkondo.Kadai4-MVVM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		959FCB6828EF8A7200B15130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9CB541FBBC529A86DE0C146 /* Pods-Kadai4-MVVMTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7X9S244452;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mkondo.Kadai4-MVVMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kadai4-MVVM.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kadai4-MVVM";
+			};
+			name = Debug;
+		};
+		959FCB6928EF8A7200B15130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEF0D935C0315DD9BA97300D /* Pods-Kadai4-MVVMTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7X9S244452;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mkondo.Kadai4-MVVMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kadai4-MVVM.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kadai4-MVVM";
+			};
+			name = Release;
+		};
+		959FCB6B28EF8A7200B15130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5743D102E6D2468FCBC6D537 /* Pods-Kadai4-MVVM-Kadai4-MVVMUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7X9S244452;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mkondo.Kadai4-MVVMUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kadai4-MVVM";
+			};
+			name = Debug;
+		};
+		959FCB6C28EF8A7200B15130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71CBF92F82F9564809A4BBF9 /* Pods-Kadai4-MVVM-Kadai4-MVVMUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7X9S244452;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mkondo.Kadai4-MVVMUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kadai4-MVVM";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		959FCB3528EF8A7000B15130 /* Build configuration list for PBXProject "Kadai4-MVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				959FCB6228EF8A7200B15130 /* Debug */,
+				959FCB6328EF8A7200B15130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		959FCB6428EF8A7200B15130 /* Build configuration list for PBXNativeTarget "Kadai4-MVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				959FCB6528EF8A7200B15130 /* Debug */,
+				959FCB6628EF8A7200B15130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		959FCB6728EF8A7200B15130 /* Build configuration list for PBXNativeTarget "Kadai4-MVVMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				959FCB6828EF8A7200B15130 /* Debug */,
+				959FCB6928EF8A7200B15130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		959FCB6A28EF8A7200B15130 /* Build configuration list for PBXNativeTarget "Kadai4-MVVMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				959FCB6B28EF8A7200B15130 /* Debug */,
+				959FCB6C28EF8A7200B15130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 959FCB3228EF8A7000B15130 /* Project object */;
+}
