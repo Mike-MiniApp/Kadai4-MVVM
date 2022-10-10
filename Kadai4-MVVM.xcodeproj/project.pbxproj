@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3D5ADC1FD6E57003A3A25D0C /* Pods_Kadai4_MVVMTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A16450B4053818A5F2E0B78F /* Pods_Kadai4_MVVMTests.framework */; };
+		95154D1628F4D2C4002F8AE8 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95154D1528F4D2C4002F8AE8 /* Calculator.swift */; };
 		959FCB3E28EF8A7000B15130 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959FCB3D28EF8A7000B15130 /* AppDelegate.swift */; };
 		959FCB4028EF8A7000B15130 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959FCB3F28EF8A7000B15130 /* SceneDelegate.swift */; };
 		959FCB4228EF8A7000B15130 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959FCB4128EF8A7000B15130 /* ViewController.swift */; };
@@ -44,6 +45,7 @@
 		543AD079E781A7B5D660AC19 /* Pods_Kadai4_MVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kadai4_MVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5743D102E6D2468FCBC6D537 /* Pods-Kadai4-MVVM-Kadai4-MVVMUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kadai4-MVVM-Kadai4-MVVMUITests.debug.xcconfig"; path = "Target Support Files/Pods-Kadai4-MVVM-Kadai4-MVVMUITests/Pods-Kadai4-MVVM-Kadai4-MVVMUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		71CBF92F82F9564809A4BBF9 /* Pods-Kadai4-MVVM-Kadai4-MVVMUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kadai4-MVVM-Kadai4-MVVMUITests.release.xcconfig"; path = "Target Support Files/Pods-Kadai4-MVVM-Kadai4-MVVMUITests/Pods-Kadai4-MVVM-Kadai4-MVVMUITests.release.xcconfig"; sourceTree = "<group>"; };
+		95154D1528F4D2C4002F8AE8 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 		959FCB3A28EF8A7000B15130 /* Kadai4-MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kadai4-MVVM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		959FCB3D28EF8A7000B15130 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		959FCB3F28EF8A7000B15130 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -128,7 +130,7 @@
 		959FCB3C28EF8A7000B15130 /* Kadai4-MVVM */ = {
 			isa = PBXGroup;
 			children = (
-				959FCB6F28EF8C9F00B15130 /* Model */,
+				959FCB6F28EF8C9F00B15130 /* Models */,
 				959FCB6E28EF8C9A00B15130 /* Views */,
 				959FCB6D28EF8C9400B15130 /* ViewModels */,
 				959FCB3D28EF8A7000B15130 /* AppDelegate.swift */,
@@ -174,11 +176,12 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		959FCB6F28EF8C9F00B15130 /* Model */ = {
+		959FCB6F28EF8C9F00B15130 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				95154D1528F4D2C4002F8AE8 /* Calculator.swift */,
 			);
-			path = Model;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		C49D8BDC0761C84E1C8FDB61 /* Pods */ = {
@@ -454,6 +457,7 @@
 				959FCB4228EF8A7000B15130 /* ViewController.swift in Sources */,
 				959FCB3E28EF8A7000B15130 /* AppDelegate.swift in Sources */,
 				959FCB7128EF8CBC00B15130 /* ViewModel.swift in Sources */,
+				95154D1628F4D2C4002F8AE8 /* Calculator.swift in Sources */,
 				959FCB4028EF8A7000B15130 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
